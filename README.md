@@ -18,3 +18,7 @@ Read the individual rust-skills rule file when one applies; rust-cappy only
 records where this machine diverges from the catalog or the catalog is silent.
 A project's own `AGENTS.md`, `Cargo.toml`, `rustfmt.toml` and `clippy.toml`
 outrank both.
+
+## License
+
+[Unlicense](UNLICENSE) — public domain.

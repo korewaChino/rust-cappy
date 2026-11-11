@@ -1,6 +1,7 @@
 ---
 name: rust-cappy
 description: Local deltas and overrides to the generic rust-skills catalog for this machine's Rust projects — which rules to ignore (error docs, tokio::fs, abort/strip profiles, mocks), and the conventions the catalog lacks (eyre wrap_err, module naming, comment hygiene, programmatic I/O, test names, fmt/clippy/test loop). Use together with rust-skills, not instead of it.
+license: Unlicense
 metadata:
   requires:
     skill: rust-skills
