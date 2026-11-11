@@ -11,7 +11,7 @@ metadata:
 # Local Rust deltas
 
 Requires [rust-skills](https://github.com/leonardomso/rust-skills) — install it
-first with `npx add-skill leonardomso/rust-skills`. Nothing in this file is
+first with `npx skills add leonardomso/rust-skills`. Nothing in this file is
 self-contained: every rule name cited below is defined in that catalog.
 
 `rust-skills` is the rule catalog. Read the individual rule file when one
