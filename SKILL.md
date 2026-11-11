@@ -1,9 +1,17 @@
 ---
 name: rust-cappy
 description: Local deltas and overrides to the generic rust-skills catalog for this machine's Rust projects — which rules to ignore (error docs, tokio::fs, abort/strip profiles, mocks), and the conventions the catalog lacks (eyre wrap_err, module naming, comment hygiene, programmatic I/O, test names, fmt/clippy/test loop). Use together with rust-skills, not instead of it.
+metadata:
+  requires:
+    skill: rust-skills
+    source: leonardomso/rust-skills
 ---
 
 # Local Rust deltas
+
+Requires [rust-skills](https://github.com/leonardomso/rust-skills) — install it
+first with `npx add-skill leonardomso/rust-skills`. Nothing in this file is
+self-contained: every rule name cited below is defined in that catalog.
 
 `rust-skills` is the rule catalog. Read the individual rule file when one
 applies; this file only records where this machine's setup differs or where the
